@@ -52,4 +52,3 @@ In this repository, I'm documenting my 100 days of coding journey. Each day, I l
 - Version control with Git: initializing a repository, committing changes, branching
 - Collaboration using GitHub: pushing code, creating pull requests, merging changes
 
-## Repository Structure
