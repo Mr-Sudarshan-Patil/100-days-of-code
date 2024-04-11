@@ -1,32 +1,55 @@
-# 100 Days of Code Challenge - MERN Stack
+# 100 Days of Code Challenge
 
-Hey everyone! Welcome to my 100-day coding journey! I'm diving deep into the MERN stack, which stands for MongoDB, Express.js, React.js, and Node.js. Here's how my journey has been so far:
+Welcome to my 100 Days of Code challenge repository! 🚀
 
-## Day 1-14: HTML Basics
+## Overview
 
-In the first two weeks, I focused on getting a solid grasp of HTML (HyperText Markup Language), the building block of web pages. I learned how to create the structure of a web page using tags like `<html>`, `<head>`, and `<body>`.
+In this repository, I'm documenting my 100 days of coding journey. Each day, I learn something new and work on projects to strengthen my coding skills. Join me as I share my progress, code snippets, and reflections on this exciting journey!
 
-## Day 15-28: CSS Fundamentals
+## Day 1: Introduction to HTML
+- Basic structure of HTML
+- Tags and elements
+- Creating a simple web page
 
-During these two weeks, I delved into CSS (Cascading Style Sheets) to make my web pages look stylish and presentable. I explored CSS properties like `color`, `font-size`, and `margin` to enhance the visual appeal of my projects.
+## Day 2-8: Diving Deeper into HTML
+- Semantic markup
+- Forms and input elements
+- Tables for data presentation
+- Accessibility considerations in HTML
 
-## Day 29-42: Bootstrap for Responsive Design
+## Day 9-20: Exploring CSS
+- Basic styling with CSS
+- Selectors and specificity
+- Box model: margin, padding, border
+- CSS layout techniques: float, flexbox, grid
 
-For the next two weeks, I learned Bootstrap, a CSS framework that makes it easy to create responsive and mobile-first websites. I used Bootstrap's grid system and components to build layouts that look great on all devices.
+## Day 21-22: Introduction to Bootstrap
+- Understanding CSS frameworks
+- Bootstrap grid system
+- Bootstrap components: navbar, cards, buttons
 
-## Day 43-49: JavaScript Basics
+## Day 23-24: Building Mini Projects
+- Application of HTML, CSS, and Bootstrap in mini projects
+- Creating responsive and visually appealing web pages
 
-In the following week, I started learning JavaScript, the programming language of the web. I covered the basics like variables, data types, and control flow, which are essential for building interactive web applications.
+## Day 25-54: Mastering JavaScript
+- Variables and data types
+- Operators and expressions
+- Control flow: if-else, switch
+- Functions and scope
+- Arrays and array methods
+- Objects and object-oriented programming
+- DOM manipulation
+- Events and event handling
+- Asynchronous JavaScript: promises, async/await
+- APIs and fetch requests
 
-## Day 50-52: Terminal Mastery
+## Day 55-56: Getting Comfortable with Terminal
+- Basic terminal commands for navigation and file management
+- Running scripts and programs from the terminal
 
-For the next three days, I dedicated time to mastering the command-line interface (CLI) using the Terminal or Command Prompt. I learned how to navigate file systems, execute commands, and manage files efficiently.
+## Day 57: Embracing Git and GitHub
+- Version control with Git: initializing a repository, committing changes, branching
+- Collaboration using GitHub: pushing code, creating pull requests, merging changes
 
-## Day 53-55: Git and GitHub Essentials
-
-In the next three days, I focused on version control using Git and collaboration using GitHub. I learned how to initialize repositories, track changes, create branches, and collaborate with others on projects.
-
-## Day 56-57: Introduction to Node.js
-
-Today, I started my journey with Node.js, the server-side JavaScript runtime. I installed Node.js on my local machine and created my first Node.js application. I'm excited to explore how Node.js can power the backend of my MERN stack projects!
-
+## Repository Structure
