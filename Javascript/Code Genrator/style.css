@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-image: url(/img/img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div{
+    height: 300px;
+    width: 60%;
+    border: 2px solid black;
+    margin: auto;
+}
+
+button{
+    font-size:16px;
+    font-weight: 600;
+    margin: 14px 22px;
+    padding: 6px 14px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 14px;
+    color: white;
+
+}

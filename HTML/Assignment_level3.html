@@ -1,0 +1,127 @@
+<!-- HTML (Level 3) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Level 3 Assignment</title>
+</head>
+<body>
+ <!-- Q1: Recreate the following table using html -->
+ <table border="black">
+    <caption>Student Information</caption>
+
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>  
+        <tr>
+            <th>Cite</th>
+            <th>House</th>
+        </tr>      
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+ </table>
+
+<br><br><br>
+
+ <hr>
+ <hr>
+ <hr>
+
+ <br><br><br>
+ <!-- Qs2. Recreate the following form using HTML :  -->
+
+
+<form action="/action">
+ <label for="name">Name: </label>
+ <input type="text" id="name" name="full_Name">
+<div>
+Sex : 
+ <input type="radio" name="gen" id="gen">
+ <label for="gen">Male</label>
+ <input type="radio" name="gen" id="gen2">
+ <label for="gen2">Female</label>
+</div>
+<div>
+    Country:
+    <select name="state" id="state_id" aplaceholder="Select an option">
+        <option> Select an Option</option>
+        <option value="ind">India</option>
+        <option value="us">US</option>
+        <option value="uk">UK</option>
+    </select>
+</div>
+<div>
+    <div>Message:</div>
+    <textarea name="msg" id="" cols="30" rows="5"></textarea>
+</div>
+<br>
+<div>
+    <input type="checkbox" id="check">
+    <label for="check">Subscribe?</label>
+</div>
+<button>Submit</button>
+
+</form>
+
+
+
+<br><br><br>
+<hr>
+<hr>
+
+
+<form action="/server" > 
+    <h3>Feedback Form</h3>
+    <div>
+        Name:
+        <input type="text" placeholder="Write your Name" name="full_Name">
+    </div>
+    <div>
+        Email:
+        <input type="email" placeholder="Write your email" name="email">
+    </div>
+    <div>
+        <div>Message:</div>
+        <textarea name="msg" id="" cols="30" rows="5"></textarea>
+    </div>
+    <div>
+        Rate us our of 5:
+<br>
+        <input type="radio" id="1" name="rate">
+        <label for="1">1</label><br>
+        <input type="radio" id="2" name="rate">
+        <label for="2">2</label><br>
+        <input type="radio" id="3" name="rate">
+        <label for="3">3</label><br>
+        <input type="radio" id="4" name="rate">
+        <label for="4">4</label><br>
+        <input type="radio" id="5" name="rate">
+        <label for="5">5</label>
+
+    </div>
+    <br>
+    <button type="submit">Send your message!</button>
+</form>
+</body>
+</html>
