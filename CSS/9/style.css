@@ -1,0 +1,111 @@
+.loder{
+    height: 50px;
+    width: 50px;
+    border: 5px solid bisque;
+    border-radius: 50%;
+    border-top: 5px solid red;
+    border-left: 5px solid blue;
+    border-right: 5px solid #00ff00;
+    border-bottom: 5px solid palevioletred;
+    animation-name: Webloder;
+    animation-duration: 3s;
+    animation-delay: infinite;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+
+@keyframes Webloder {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+
+.container{
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    background-color: rgb(252, 252, 252);
+    row-gap: 3px;
+    column-gap: 3px;
+
+}
+
+.header{
+    grid-column: 1/13;
+    background-color: green;
+}
+
+.sidnav{
+    grid-row: 2/12;
+    grid-column: 1/4;
+    background-color: red;
+}
+
+.ads{
+    grid-row: 2/12;
+    grid-column: 10/13;
+    background-color: aqua;
+}
+
+.navbar{
+    grid-row: 2;
+    grid-column: 4/10;
+    background-color: black;
+}
+
+.main{
+    grid-column: 4/10;
+    grid-row: 3/12;
+    background-color: blueviolet;
+}
+
+.footer{
+    grid-row: 12/13;
+    grid-column: 1/13;
+    background-color: cornflowerblue;
+}
+
+@media (max-width: 720px) {
+
+    .navbar{
+        grid-row: 2;
+        grid-column: 1/13;
+        background-color: black;
+    }
+
+    .sidnav{
+        grid-row: 3/12;
+        grid-column: 1/4;
+        background-color: red;
+    }
+
+    .ads{
+        grid-row: 12/13;
+        grid-column: 1/4;
+        background-color: aqua;
+    }
+
+    .footer{
+        grid-row: 12/13;
+        grid-column: 4/13;
+        background-color: cornflowerblue;
+    }
+    
+    .main{
+        grid-column: 4/13;
+        grid-row: 3/12;
+        background-color: blueviolet;
+    }
+}

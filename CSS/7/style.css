@@ -1,0 +1,94 @@
+
+
+.maindiv{
+    height: 250px;
+    width: 200px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
+    margin: 0 0 0 10px;
+    display: inline-block;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card{
+    padding-left: 5px;
+}
+
+.maindiv:hover{
+    box-shadow: 5px 5px 16px black;
+}
+
+
+.smildiv{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.one{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    border-radius: 50%;
+    margin: 13px;
+    padding: 10px;
+    margin-top: 45px;
+    margin-left: 28px;
+}
+
+.face{
+    height: 45px;
+    width: 115px;
+    background-color: brown;
+    margin-left: 40px;
+    margin-top: 15px;
+    border-radius: 0 0 75px 75px;
+}
+
+
+body{display: flex;
+    justify-content:center;
+    margin: auto}
+
+
+
+
+    #outerface {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(255, 251, 0);
+        border-radius: 50%;
+    
+    }
+    
+    #mouth{
+        width: 200px;
+        height: 80px;
+        background-color: rgb(224, 146, 0);
+        border-radius: 0 0 50px 50px;
+    }
+    
+    .righteye,.lefteye {
+        width: 70px;
+        height: 70px;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .righteye{
+        left: 250px;
+    }
+    
+    
+    body{display: flex;
+        justify-content:center;
+        margin: auto}

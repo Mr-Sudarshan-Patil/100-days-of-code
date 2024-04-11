@@ -1,0 +1,93 @@
+.firstDiv{
+    height: 200px;
+    width: 800px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: black;
+    border-right: 8px solid red;
+}
+
+.secDiv{
+    height: 200px;
+    width: 800px;
+    border: 8px solid black;
+
+}
+
+
+.outdiv{
+  height: 200px;
+  width: 70px;
+  border: 2px solid black;
+}
+
+.indiv{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#div1{
+    background-color: red;
+}
+
+#div2{
+    background-color: yellow;
+}
+#div3{
+    background-color: green;
+}
+
+
+/* <!-- Qs1. Create a box using div. Set
+- Its height to 150px, width to 300px and the background color to grey.
+- Border to a 5px, black, dotted border.
+- A top margin of 20px.
+- A right margin of 1em.
+- A bottom margin of 40px.
+- A left margin of 2em.
+- Padding on all sides of 1em --> */
+
+.myDiv{
+    height: 150px;
+    width: 300px;
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+
+/* Qs2. Create 3 divs with the following properties
+- Height & Width of 100px
+- Background color to pink
+- Border to 2px solid black
+- Make this div in the shape of circle
+- Place all the 3 divs in a single line */
+
+
+.div1, .div2, .div3{
+height: 100px;
+width: 100px;
+background-color: pink;
+border: 2px solid black;
+border-radius: 50%;
+display: inline-block;
+margin: 5px;
+}
+
+
+
+/* Qs3. Create a list of technologies - HTML, CSS, JavaScript, NodeJS, ReactJS, SQL,
+MongoDB, Java, C++, C & Python.
+Now change the display of all list items to inline to move them all in a single line.
+Did you notice something different? Try to find why the bullet points disappear */
+
+ul>li{
+    display: inline;
+    margin: 3px;
+}

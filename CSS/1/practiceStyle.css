@@ -1,0 +1,23 @@
+h2{
+    color: orange;
+}
+p{
+    background-color: black;
+    color:white;
+}
+button{
+    color: white;
+    background-color: blue;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5px;
+    text-decoration: #19f1f1 double underline;
+    text-transform: uppercase;
+}

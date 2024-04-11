@@ -1,0 +1,28 @@
+/*     <div class="maindiv">
+        <div class="firstdiv"></div>
+        <div class="secdiv"></div>
+        <div class="thirdiv"></div>
+        <div class="forthdiv"></div>
+    </div> */
+
+.maindiv{
+    border: 2px solid black;
+    height: 450px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+
+.maindiv div{
+    text-align: center;
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+}
+
+
+.secdiv{
+    flex-grow: 2;
+}
