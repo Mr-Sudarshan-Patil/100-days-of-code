@@ -11,7 +11,12 @@
 // }
 
 
-const math = require("./math");
+// const math = require("./math");
 
-console.log(math.sum(6,2));
-console.log(typeof math);
+// console.log(math.sum(6,2));
+// console.log(typeof math);
+
+
+const info = require("./Fruits");
+
+console.log(info[0]);
